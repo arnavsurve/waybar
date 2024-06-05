@@ -1,6 +1,7 @@
 {
     "layer": "top", // Waybar at top layer
     "modules-left": ["sway/workspaces"],
+    "modules-center": ["sway/window"],
     "modules-right": ["memory", "backlight", "network", "pulseaudio", "battery", "clock"],
     "tray": {
         // "icon-size": 21,
@@ -31,7 +32,7 @@
         "format": "　{capacity}%"
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-        //"format-icons": ["", "", "", "", ""]
+        // "format-icons": ["", "", "", "", ""]
     },
     "network": {
         // "interface": "wlp2s0", // (Optional) To force the use of this interface

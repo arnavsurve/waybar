@@ -8,7 +8,7 @@
 }
 
 window#waybar {
-    background: rgba(43, 48, 59, 0.8);
+    background: rgba(27, 31, 41, 0.85);
     /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
     color: white;
 }
@@ -22,8 +22,12 @@ tooltip label {
   color: white;
 }
 
+#window {
+    color: #bababa;
+}
+
 #workspaces button {
-    padding: 0 5px;
+    padding: 0 0px;
     background: transparent;
     color: white;
     /* border-bottom: 3px solid transparent; */
@@ -48,7 +52,7 @@ tooltip label {
 /* } */
 
 #battery {
-    /* background-color: #ffffff; */
+    background-color: #64727D;
     color: white;
 }
 
