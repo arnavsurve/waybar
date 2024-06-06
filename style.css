@@ -24,6 +24,7 @@ tooltip label {
 
 #window {
     color: #bababa;
+    padding: 0 60;
 }
 
 #workspaces button {
