@@ -2,7 +2,7 @@
     "layer": "top", // Waybar at top layer
     "modules-left": ["sway/workspaces"],
     "modules-center": ["sway/window"],
-    "modules-right": ["memory", "backlight", "network", "pulseaudio", "battery", "clock"],
+    "modules-right": ["network", "backlight", "memory", "pulseaudio", "battery", "clock"],
     "tray": {
         // "icon-size": 21,
         "spacing": 10
@@ -16,7 +16,7 @@
         "format": "　{usage}%"
     },
     "memory": {
-        "format": "RAM {}%"
+        "format": "RAM {used:0.1f}/16G ({}%)"
     },
     "backlight": {
         //"device": "intel_backlight",
